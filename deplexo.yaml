@@ -1,0 +1,12 @@
+# Deplexo app configuration
+# Docs: https://docs.deplexo.com/reference/configuration/
+version: 1
+type: web
+
+build:
+  framework: dockerfile
+  dockerfile: Dockerfile
+
+run:
+  # Deplexo routes traffic to this port and injects it as $PORT.
+  port: 8000

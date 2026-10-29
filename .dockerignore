@@ -1,0 +1,13 @@
+.git
+.github
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+.venv/
+venv/
+data/
+gateway_state.json
+gateway_state.tmp
+gateway_secret.key
